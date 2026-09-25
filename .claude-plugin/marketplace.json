@@ -1,0 +1,23 @@
+{
+  "name": "nacre",
+  "description": "Official Nacre plugin for Claude Code — connect Claude to your self-hosted, permission-aware knowledge index.",
+  "owner": {
+    "name": "Nacre"
+  },
+  "plugins": [
+    {
+      "name": "nacre",
+      "source": "./",
+      "description": "Connect Claude to a Nacre installation: search corporate documents by meaning and exact term, list layers, and (if you allow it) ingest and delete documents — every answer filtered to what you may read.",
+      "category": "productivity",
+      "tags": [
+        "knowledge-base",
+        "search",
+        "rag",
+        "permissions",
+        "access-control",
+        "self-hosted"
+      ]
+    }
+  ]
+}

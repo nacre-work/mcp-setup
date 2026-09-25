@@ -1,0 +1,32 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.nacre-work/nacre",
+  "title": "Nacre",
+  "description": "Self-hosted permission-aware context layer. Search returns only what the caller may read.",
+  "version": "0.26.0",
+  "websiteUrl": "https://nacre.work",
+  "repository": {
+    "url": "https://github.com/nacre-work/nacre",
+    "source": "github"
+  },
+  "packages": [
+    {
+      "registryType": "npm",
+      "registryBaseUrl": "https://registry.npmjs.org",
+      "identifier": "@nacre.work/mcp",
+      "version": "0.26.0",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "NACRE_SERVICE_KEY",
+          "description": "Service-account key for STDIO mode. The server also needs the deployment's full environment (database and backend configuration) - see docs/mcp.md; the key alone is not enough to start it.",
+          "isRequired": true,
+          "format": "string",
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
