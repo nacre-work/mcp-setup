@@ -1,0 +1,27 @@
+{
+  "name": "nacre",
+  "description": "Connect Claude to a Nacre installation: search corporate documents by meaning and exact term, list layers, and (if you allow it) ingest and delete documents — every answer filtered to what you may read.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Nacre"
+  },
+  "homepage": "https://nacre.work",
+  "repository": "https://github.com/nacre-work/mcp-setup",
+  "keywords": [
+    "nacre",
+    "mcp",
+    "model-context-protocol",
+    "rag",
+    "search",
+    "knowledge-base",
+    "permissions",
+    "access-control",
+    "self-hosted"
+  ],
+  "mcpServers": {
+    "nacre": {
+      "type": "http",
+      "url": "${NACRE_MCP_URL:-https://playground.nacre.work/mcp}"
+    }
+  }
+}
