@@ -3,7 +3,7 @@
   "name": "io.github.nacre-work/nacre",
   "title": "Nacre",
   "description": "Self-hosted permission-aware context layer. Search returns only what the caller may read.",
-  "version": "0.26.0",
+  "version": "0.26.3",
   "websiteUrl": "https://nacre.work",
   "repository": {
     "url": "https://github.com/nacre-work/nacre",
@@ -14,7 +14,7 @@
       "registryType": "npm",
       "registryBaseUrl": "https://registry.npmjs.org",
       "identifier": "@nacre.work/mcp",
-      "version": "0.26.0",
+      "version": "0.26.3",
       "transport": {
         "type": "stdio"
       },
