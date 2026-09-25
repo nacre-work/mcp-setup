@@ -1,9 +1,9 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.nacre-work/nacre",
+  "name": "work.nacre/nacre",
   "title": "Nacre",
   "description": "Self-hosted permission-aware context layer. Search returns only what the caller may read.",
-  "version": "0.26.3",
+  "version": "0.26.4",
   "websiteUrl": "https://nacre.work",
   "repository": {
     "url": "https://github.com/nacre-work/nacre",
@@ -14,7 +14,7 @@
       "registryType": "npm",
       "registryBaseUrl": "https://registry.npmjs.org",
       "identifier": "@nacre.work/mcp",
-      "version": "0.26.3",
+      "version": "0.26.4",
       "transport": {
         "type": "stdio"
       },
