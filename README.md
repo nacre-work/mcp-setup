@@ -65,6 +65,10 @@ Then run `/mcp` and complete the sign-in when prompted.
 > claude mcp add --transport http nacre https://nacre.example.com/mcp
 > ```
 
+The plugin also ships one skill, `nacre-search`: how to read Nacre's answers
+(an empty result and a "not found" are deliberate, and a retry will not change
+them), and how to ingest without mistaking `queued` for done.
+
 ---
 
 ## Connect from other clients
