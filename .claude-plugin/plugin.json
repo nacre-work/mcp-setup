@@ -1,7 +1,7 @@
 {
   "name": "nacre",
   "description": "Connect Claude to a Nacre installation: search corporate documents by meaning and exact term, list layers, and (if you allow it) ingest and delete documents — every answer filtered to what you may read.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": {
     "name": "Nacre"
   },
